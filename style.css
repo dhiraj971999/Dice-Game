@@ -171,3 +171,33 @@ main {
 .hidden {
   display: none;
 }
+
+
+@media screen and (max-width:1000px) {
+  main{
+    width:80rem;
+  }
+}
+@media screen and (max-width:800px) {
+  main{
+    width:60rem;
+  }
+  .player{
+    padding: 10rem 3rem 6rem 3rem;
+  }
+  .name{
+    font-size: 2rem;
+  }
+  .btn--new {
+    top: 0rem;
+  }
+  .current{
+    width: 85%;
+  }
+  .btn--roll {
+    top: 28.3rem;
+  }
+  .btn--hold {
+    top: 36.1rem;
+  }
+}
